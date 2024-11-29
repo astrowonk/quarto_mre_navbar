@@ -1,0 +1,30 @@
+project:
+  type: website
+
+execute:
+  freeze: auto
+  cache: true
+
+website:
+  title: "Demo"
+
+  description: "Demo Navbar"
+  navbar:
+
+
+    right:
+    - text: "![](bluesky-brands-solid.svg)"
+      href: https://github.com/astrowonk
+    - text: "![](bluesky-brands-solid.png)"
+      href: https://quarto.org
+    - icon: github
+      href: https://github.com
+
+
+format:
+  html:
+    theme: spacelab
+
+
+
+
